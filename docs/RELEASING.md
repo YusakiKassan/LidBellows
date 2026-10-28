@@ -6,10 +6,9 @@
 - [x] **GitHub 账号**：`YusakiKassan`，已填入 `README.md` 和 `docs/COMPATIBILITY.md`。
 - [x] **bundle id**：`io.github.yusakikassan.lidbellows`（`build.sh`、`docs/TUNING.md`）。
 - [x] **git 身份**：本仓库用 `YusakiKassan <50410251+YusakiKassan@users.noreply.github.com>`。
-- [ ] **首次提交**，推到 GitHub，确认 CI（`.github/workflows/ci.yml`）通过。
-      CI 只在本地用 Command Line Tools 验证过同样的命令，还没在 GitHub 的 runner 上跑过。
-- [ ] **仓库设置**：描述、topics（`macos` `swift` `accordion` `lid-angle-sensor` `synthesizer`）、
-      创建 `compatibility` 和 `bug` 两个 label（issue 模板会用到）。
+- [x] **首次提交**并推到私有仓库 `YusakiKassan/LidBellows`，CI 通过（GitHub runner 上是 Swift 6.1.2 / macOS 15）。
+- [x] **仓库设置**：描述、topics、`compatibility` label 已设好（`bug` 是默认 label）。
+- [ ] **改成公开**：`gh repo edit YusakiKassan/LidBellows --visibility public --accept-visibility-change-consequences`
 - [ ] **截图**：README 加一张窗口截图（放 `docs/screenshot.png`），最好再录一段带声音的短视频。
 - [ ] **应用图标**：目前没有，用的是系统默认图标。
 
