@@ -1,0 +1,47 @@
+name: 传感器兼容性报告 / Sensor compatibility
+description: 告诉我们 LidBellows 在你的 Mac 上能不能用 / Does LidBellows work on your Mac?
+labels: [compatibility]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: 机型 / Model
+      description: 例如 MacBook Air (M5, 2026)
+    validations:
+      required: true
+  - type: input
+    id: identifier
+    attributes:
+      label: 型号标识 / Model identifier
+      description: "`sysctl -n hw.model` 的输出，例如 Mac17,4"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本 / macOS version
+      description: "`sw_vers -productVersion`"
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: 窗口右上角的传感器状态 / Sensor status shown in the window
+      options:
+        - 开合传感器 · 0.01°
+        - 开合传感器 · 1°
+        - 没找到传感器 / not found
+    validations:
+      required: true
+  - type: checkboxes
+    id: behaviour
+    attributes:
+      label: 表现 / Behaviour
+      options:
+        - label: 屏幕静止时风压保持 0% / Pressure stays at 0% with the lid still
+        - label: 推拉时风压跟手 / Pressure follows the lid smoothly
+  - type: textarea
+    id: notes
+    attributes:
+      label: 其他 / Notes
+      description: "`hidutil list | grep -i 0x8104` 的输出，或其他观察"

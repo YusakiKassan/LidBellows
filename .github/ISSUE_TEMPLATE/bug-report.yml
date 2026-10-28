@@ -1,0 +1,22 @@
+name: 问题报告 / Bug report
+description: 出了问题 / Something is wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么 / What happened
+      description: 以及你期望发生什么 / and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+  - type: input
+    id: system
+    attributes:
+      label: 机型和 macOS 版本 / Mac model and macOS version
+      description: "`sysctl -n hw.model; sw_vers -productVersion`"
+    validations:
+      required: true
