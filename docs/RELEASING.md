@@ -1,6 +1,6 @@
 # 开源发布清单
 
-## 首次公开前（待办）
+## 首次公开（已完成）
 
 - [x] **版权署名**：`YusakiKassan`。
 - [x] **GitHub 账号**：`YusakiKassan`，已填入 `README.md` 和 `docs/COMPATIBILITY.md`。
@@ -8,7 +8,7 @@
 - [x] **git 身份**：本仓库用 `YusakiKassan <50410251+YusakiKassan@users.noreply.github.com>`。
 - [x] **首次提交**并推到私有仓库 `YusakiKassan/LidBellows`，CI 通过（GitHub runner 上是 Swift 6.1.2 / macOS 15）。
 - [x] **仓库设置**：描述、topics、`compatibility` label 已设好（`bug` 是默认 label）。
-- [ ] **改成公开**：`gh repo edit YusakiKassan/LidBellows --visibility public --accept-visibility-change-consequences`
+- [x] **改成公开**（2026-10-28）。公开前检查过：提交记录只有 noreply 邮箱，文件和历史里没有本机路径、密钥或个人信息，截图元数据只有尺寸。
 - [x] **截图**：`docs/screenshot.png`，已放进 README。不做视频。
 - [ ] **应用图标**：可选，目前用系统默认图标。
 
