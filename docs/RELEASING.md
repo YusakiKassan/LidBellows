@@ -9,8 +9,8 @@
 - [x] **首次提交**并推到私有仓库 `YusakiKassan/LidBellows`，CI 通过（GitHub runner 上是 Swift 6.1.2 / macOS 15）。
 - [x] **仓库设置**：描述、topics、`compatibility` label 已设好（`bug` 是默认 label）。
 - [ ] **改成公开**：`gh repo edit YusakiKassan/LidBellows --visibility public --accept-visibility-change-consequences`
-- [ ] **截图**：README 加一张窗口截图（放 `docs/screenshot.png`），最好再录一段带声音的短视频。
-- [ ] **应用图标**：目前没有，用的是系统默认图标。
+- [x] **截图**：`docs/screenshot.png`，已放进 README。不做视频。
+- [ ] **应用图标**：可选，目前用系统默认图标。
 
 ## 发版
 
